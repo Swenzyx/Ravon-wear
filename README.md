@@ -1,2 +1,2 @@
 # Ravon-wear
-Lüks giiym
+Lüks giyim
