@@ -1,3 +1,3 @@
 # Ravon Wear
 
-%1'lik kitleye özel giyim markası için özel tanıtım sitesi.
+Prestijli %1'lik kitleye özel giyim markası web sitesi.
