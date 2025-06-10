@@ -1,51 +1,52 @@
 body {
   margin: 0;
-  padding: 0;
-  background-color: #000;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
   color: #fff;
-  font-family: 'Arial', sans-serif;
   text-align: center;
 }
-.container {
-  padding: 50px 20px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 .logo {
-  max-width: 120px;
-  margin-bottom: 20px;
+  height: 50px;
 }
-.title {
-  font-size: 48px;
-  font-weight: bold;
-  margin: 20px 0;
-}
-.desc {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-.buttons {
+nav ul {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
 }
-.btn {
-  padding: 12px 24px;
-  background-color: #fff;
-  color: #000;
-  border-radius: 8px;
+nav a {
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.3s;
 }
-.btn:hover {
-  background-color: #ddd;
+.hero {
+  padding: 5rem 1rem;
+  background: #000;
 }
-.btn.outline {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+.hero h1 {
+  font-size: 3rem;
 }
-.btn.outline:hover {
-  background-color: #fff;
+.button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #fff;
   color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.coming-soon {
+  background: #1a1a1a;
+  padding: 3rem 1rem;
+}
+footer {
+  padding: 2rem;
+  font-size: 0.9rem;
+  background: #000;
 }
