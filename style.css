@@ -1,56 +1,51 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #000;
+  padding: 0;
+  background-color: #000;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.container {
+  font-family: 'Arial', sans-serif;
   text-align: center;
-  padding: 2rem;
 }
-
+.container {
+  padding: 50px 20px;
+}
 .logo {
-  width: 100px;
-  margin-bottom: 1rem;
+  max-width: 120px;
+  margin-bottom: 20px;
 }
-
 .title {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: bold;
-  margin: 0.5rem 0;
+  margin: 20px 0;
 }
-
 .desc {
-  font-size: 1.1rem;
-  opacity: 0.85;
-  margin-bottom: 2rem;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
-
 .buttons {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 200px;
-  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-
 .btn {
-  background: #fff;
+  padding: 12px 24px;
+  background-color: #fff;
   color: #000;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  font-weight: bold;
-  text-decoration: none;
   border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
 }
-
+.btn:hover {
+  background-color: #ddd;
+}
 .btn.outline {
-  background: transparent;
+  background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
+}
+.btn.outline:hover {
+  background-color: #fff;
+  color: #000;
 }
