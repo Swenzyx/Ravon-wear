@@ -58,32 +58,12 @@ footer {
   font-size: 14px;
 }
 
-.logo-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 80px 20px;
-  background-color: #000;
+.hero-logo {
+  text-align: center;
+  margin-top: 80px;
 }
 
-.logo-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.crown-logo {
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-  height: auto;
-  z-index: 2;
-}
-
-.text-logo {
-  display: block;
-  max-width: 300px;
-  height: auto;
+.hero-logo img {
+  width: 300px;
+  max-width: 90%;
 }
