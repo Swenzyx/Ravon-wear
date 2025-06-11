@@ -59,30 +59,31 @@ footer {
 }
 
 .logo-section {
-  text-align: center;
-  padding: 60px 20px 40px;
-  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 20px;
+  background-color: #000;
+}
+
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
 }
 
 .crown-logo {
-  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
   height: auto;
-  margin-bottom: 10px;
+  z-index: 2;
 }
 
-.brand-name {
-  font-family: 'Cinzel', serif;
-  font-size: 50px;
-  letter-spacing: 12px;
-  font-weight: 400;
-  color: #000;
-  margin: 0;
-}
-
-.subtitle {
-  font-family: 'Cinzel', serif;
-  font-size: 18px;
-  letter-spacing: 6px;
-  color: #000;
-  margin-top: 8px;
+.text-logo {
+  display: block;
+  max-width: 300px;
+  height: auto;
 }
